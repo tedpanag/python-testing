@@ -36,8 +36,8 @@ if anwser.lower() == "america":
 else:
     print ("Incorrect!")
 
-print ("You got" + str(score) + "questions correct")
-print ("You got" + str((score/ 4 ) * 100) + "%.")
+print ("You got " + str(score) + " questions correct")
+print ("You got " + str((score/ 4 ) * 100) + "%.")
 
 anwser = input ("Did you like the quiz? ")
 if anwser.lower() == "yes":
