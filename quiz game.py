@@ -38,4 +38,4 @@ else:
 
 print ("You got" + str(score) + "questions correct")
 print ("You got" + str((score/ 4 ) * 100) + "%.")
-anwser = input ("Did you like it? ")
+anwser = input ("Did you like? ")
