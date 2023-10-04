@@ -38,4 +38,9 @@ else:
 
 print ("You got" + str(score) + "questions correct")
 print ("You got" + str((score/ 4 ) * 100) + "%.")
-anwser = input ("Did you like? ")
+
+anwser = input ("Did you like the quiz? ")
+if anwser.lower() == "yes":
+    print ("thanks!")
+else:
+    print ("sad")
