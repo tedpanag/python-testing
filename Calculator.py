@@ -43,7 +43,7 @@ What operation would you like to use? :
 # ^
     elif mathematical_operation == '^':
         print('{} ^ {} = '.format(number_1, number_2))
-        print(number_1 ^ number_2)
+        print(number_1 ** number_2)
 
 
 #Skill issue detected
