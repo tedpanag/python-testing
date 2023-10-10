@@ -15,6 +15,7 @@ What operation would you like to use? :
 * for multiplication
 / for division
 ^ for powers
+| for square root
 ''')
 
 # +
@@ -45,6 +46,10 @@ What operation would you like to use? :
         print('{} ^ {} = '.format(number_1, number_2))
         print(number_1 ** number_2)
 
+# |
+    elif mathematical_operation == '^':
+        print('{} | {} = '.format(number_1, number_2))
+        print(number_1 // number_2)
 
 #Skill issue detected
     else:
@@ -63,7 +68,7 @@ Type Y for YES or N for NO.
     if calc_again.upper() == 'Y':
         calculate()
     elif calc_again.upper() == 'N':
-        print("See ya.")
+        print("See ya!")
     else:
         again()
 
