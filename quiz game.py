@@ -1,3 +1,4 @@
+import sys
 print("Welcome to my geography quiz")
 
 playing = input("Do you want to play? ")
