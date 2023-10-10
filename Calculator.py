@@ -1,13 +1,13 @@
 import sys
-
+def calculate():
 # Inputs
-number_1 = int(input('Enter your first number: '))
-number_2 = int(input('Enter your second number: '))
+    number_1 = int(input('Enter your first number: '))
+    number_2 = int(input('Enter your second number: '))
 
 
 # Choose what to do
 
-def calculate():
+
     mathematical_operation = input('''
 What operation would you like to use? :
 + for addition
